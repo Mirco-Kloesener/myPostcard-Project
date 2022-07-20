@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gruss{
+    position: relative;
+    z-index: 1;
+    top: -45vh;
+    text-shadow: 5px 0px 3px black, -5px 0px 3px black, 0px 5px 3px black, 0px -5px 3px black, 5px 5px 3px black, -5px 5px 3px black, -5px -5px 3px black, 5px -5px 3px black ;
+    font-family: 'UnifrakturCook';
+}
+.gruss h1 {
+    font-size: 75px;
+}
+.gruss p {
+    font-size: 50px;
+}
+.button button , .button a{
+   margin-bottom: 10px;
+    border-radius: 50px;
+    border-color: black;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    background-color: black;
+    color: brown;
+    box-shadow: 5px 5px red, -5px -5px red;
+}
+.zitat {
+    text-shadow: 5px 0px 3px black, -5px 0px 3px black, 0px 5px 3px black, 0px -5px 3px black, 5px 5px 3px black, -5px 5px 3px black, -5px -5px 3px black, 5px -5px 3px black ;
+    font-size: larger;
+}
+.nachricht a {
+    display: inline-flex;
+    width: 10vw;
+    height: 10vh;
+    justify-content: center;
+    position: absolute;
+    top: 55vh;
+    left: 40vw;
+    animation: shake 2.5s 1s forwards;
+
+    
+}
+
+@keyframes shake {
+   0% {transform: rotate(0deg)}
+   10% {transform: rotate(-20deg) scale(1.3)}
+    20% {transform: rotate(20deg) scale(1.6)}
+    30% {transform: rotate(-20deg) scale(1.9)}
+    40% {transform: rotate(20deg) scale(2.2)}
+    50% {transform: rotate(-20deg) scale(2.5)}
+    60% {transform: rotate(20deg) scale(2.8)}
+    70% {transform: rotate(-20deg) scale(3.1)}
+    80% {transform: rotate(20deg) scale(3.4)}
+    90% {transform: rotate(-20deg) scale(3.7)}
+    100% {transform: rotate(0deg) scale(4)} 
+  /*   55% {transform: rotate(-20deg) scale(4.3)}
+    60% {transform: rotate(20deg) scale(4.6)}
+    65% {transform: rotate(-20deg) scale(4.9)}
+    70% {transform: rotate(20deg) scale(5.2)}
+    75% {transform: rotate(-20deg) scale(5.5)}
+    80% {transform: rotate(20deg) scale(5.8)}
+    85% {transform: rotate(-20deg) scale(6.1)}
+    90% {transform: rotate(20deg) scale(6.4)}
+    95% {transform: rotate(-20deg) scale(6.7)}
+    100% {transform: rotate(20deg) scale(7)} */
+}
